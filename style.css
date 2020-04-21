@@ -1,0 +1,78 @@
+/* grid */
+body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10vh 75vh 5vh;
+    grid-gap: 3em;
+}
+  
+header,
+footer {
+    grid-column: 1 / span 2;
+}
+  
+body {
+    margin: 0 auto;
+    max-width: 80vw;
+    padding: 1em 0;
+}
+
+header,
+main,
+aside,
+footer {
+    background: #ffffff;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+/* text */
+h1, h2 {
+    font-family: "Avenir", "Nunito", sans-serif;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+.bio, footer, main {
+    font-family: "Baskerville", "Libre Baskerville", serif;
+    font-size: 12pt;  
+}
+
+.bio {
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+}
+
+/* list */
+li{
+    margin: 1em 0;
+}  
+ul {
+    list-style-type:none;
+    padding-left: 0;
+}
+ul a {
+    color: black;
+    text-decoration: underline;
+}
+ul a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+/* image */
+img {
+    width: 90%;
+}
