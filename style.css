@@ -21,7 +21,6 @@ header,
 main,
 aside,
 footer {
-    background: #ffffff;
     display: flex;
     align-items: left;
     justify-content: left;
