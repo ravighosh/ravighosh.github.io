@@ -20,3 +20,8 @@ a:hover {
 li{
     margin: 1em 0;
 }
+
+figcaption {
+    font-size: 0.8em !important;
+    color: #666 !important;
+}
